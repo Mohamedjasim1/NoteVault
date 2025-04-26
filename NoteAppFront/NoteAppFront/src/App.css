@@ -1,0 +1,317 @@
+
+.navBar{
+  width: 100%;
+  height: 60px;
+  /* background-color: brown; */
+  text-align: center;
+  /* position: fixed; */
+}
+
+.container{
+ 
+  /* height: 100vh; */
+  /* width: 100vw; */
+  /* background-color: rgb(71, 42, 165); */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 50px;
+}
+
+.Box{
+height: 300px;
+width: 300px;
+font-size: 24px;
+position: relative;
+
+background-color: #FFFFFF;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+/* justify-content: center; */
+color: black;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+border-radius: 20px;
+border: none;
+overflow: hidden;
+
+
+}
+
+.Box .boxhead{
+  text-align: center;
+}
+
+.Box .boxfoot{
+  /* position: relative; */
+  font-size: 10px;
+  color: gray;
+  margin: 30px;
+ 
+}
+
+  /* .Box .boxfoot p{
+  
+    filter: blur(2px);
+
+
+  }
+
+  .Box .boxfoot p:hover{
+  
+    filter: blur(0px);
+    cursor: pointer;
+    
+
+
+  } */
+
+.Boxes{
+  /* background-color: aqua; */
+
+  display: flex;
+  padding-top: 120px;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 68px;
+  /* align-items: center; */
+  
+}
+
+
+.BoxInput{
+  /* width: 100%; */
+  margin: 20px;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+.Box1{
+  height: 300px;
+  width: 300px;
+  background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  border-radius: 20px;
+  border: none;
+}
+
+.insideBox{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items:center;
+}
+
+.insideBox button{
+  width: 70px;
+  background-color: aqua;
+  color: black;
+  border-radius: 25px;
+  border: 2px solid black;
+
+  
+}
+
+::placeholder{
+  padding: 10px;
+}
+
+.Box1 textarea{
+  height: 500px;
+  width: 500px;
+}
+
+
+.containerCreate{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+
+
+
+
+
+.CreateForm{
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  
+}
+
+.CreateForm input{
+  /* width: 800px;  */
+  height: 50px;
+  border:2px solid rgb(207, 183, 140);
+  border-radius: 15px;
+}
+
+.CreateForm textarea{
+  height: 500px;
+  resize: none;
+  border:2px solid rgb(207, 183, 140);
+  border-radius: 15px;
+
+}
+
+.CreateForm button{
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(135, 194, 221);
+  border: none;
+}
+
+
+
+.Box img{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+  right: 0;
+  bottom: 0;
+  /* background-color: red; */
+  /* opacity: 80% */
+  
+}
+
+/* .Box:hover img{
+  opacity: 20%;
+} */
+
+.Box .pass{
+  display: none;
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  left: 40px;
+
+}
+
+.Box:hover .pass {
+  color: #fd0d0d;   
+  display: block;     /* new style on hover */
+      /* any other changes you need */
+}
+
+.contenthead{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fd0d0d; */
+}
+
+.contenthead .btn2{
+  background-color: rgb(42, 109, 235);
+}
+
+.contenthead .btn2:hover{
+  background-color: rgb(0, 89, 255);
+}
+
+.contenthead .contentbutton{
+  display: flex;
+}
+
+.contenthead button{
+  margin: 30px;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(225, 59, 59);
+  color: white;
+  padding: 10px;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.lock-icon {
+  
+  width: 20px;       
+  height: 20px;
+
+  color: #ffffff;     
+}
+
+.contenthead button:hover {    
+  background-color: rgb(248, 0, 0);
+  /* background-color: #FFFFFF;
+  color:red; */
+
+}
+
+
+.modal{
+  /* ensure it's above all content */
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 1000;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+}
+
+.modal a{
+  position: absolute;
+  top: 0px;
+  right: 6%;
+  cursor: pointer;
+}
+
+.modal h1,h3{
+  text-align: center;
+}
+
+.modal h3{
+  color: rgb(207, 165, 86);
+}
+
+.modal .text{
+  font-size: 16px;
+  color: black;
+}
+
+.modal .innermodal{
+  display: flex;
+  flex-direction: column;
+
+  /* gap: 30px; */
+}
+
+.modal .innermodal input{
+  margin: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(207, 165, 86);
+}
+
+.modal .innermodal button{
+  margin: 20px;
+  border: 2px solid rgb(207, 165, 86);
+  border-radius: 5px;
+}
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}
+
