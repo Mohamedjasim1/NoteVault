@@ -38,8 +38,8 @@ function Home() {
                 key={idx}
                 name={d}
                 type={0}
-                activeBox={activeBox}        // pass activeBox
-                setActiveBox={setActiveBox}  // pass setter
+                activeBox={activeBox}        
+                setActiveBox={setActiveBox}  
               />
             ))}
             <Box2 />
