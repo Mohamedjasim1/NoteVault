@@ -42,7 +42,7 @@ function Content() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(pas),
         
-         // Convert to JSON string
+         
       })
       .then(() => navigate(`/`))
         .catch((error) => console.error("Error adding note:", error));
@@ -60,7 +60,7 @@ function Content() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(tit),
         
-         // Convert to JSON string
+        
       })
       .then(() => navigate(`/`))
         .catch((error) => console.error("Error adding note:", error));
@@ -77,7 +77,7 @@ function Content() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(tit),
         
-         // Convert to JSON string
+      
       })
       .then(() => navigate(`/`))
         .catch((error) => console.error("Error adding note:", error));
